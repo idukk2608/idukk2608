@@ -1,34 +1,33 @@
+body{
+  margin: 0 auto;
+}
+.header {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 200px;
+  margin-top: 1%;
+}
+.text{
+  flex-direction: column;
+}
+.title {
+  color: rgb(255, 185, 40);
+  font-size: 60px;
+  font-family: 'Yellowtail', cursive;
+}
+.subtitle {
+  color: rgb(255, 185, 40);
+  font-size: 30px;
+  font-family: 'Bowlby One SC', cursive;
+  margin-left: 20%;
+}
 #main {
   background-color: rgb(75, 75, 75);
   display: flex;
 }
-#title {
-  color: rgb(255, 185, 40);
-  font-size: 60px;
-  font-family: 'Yellowtail', cursive;
+.Huracan_img {
   justify-content: center;
-  margin-right: 120px;
-}
-#subtitle {
-  color: rgb(255, 185, 40);
-  font-size: 30px;
-  font-family: 'Bowlby One SC', cursive;
-  justify-content: center;
-  margin-right: 120px;
-  margin-top: -45px;
-}
-
-.bigger-img {
-  width: 1000px;
-  height: 600px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-#logo {
-  background: #000;
-  height: 200px;
-}
-#content {
-  background: #000;
 }
